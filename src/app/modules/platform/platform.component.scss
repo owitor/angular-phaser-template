@@ -1,0 +1,10 @@
+.main-platform {
+  display: grid;
+  grid-template-areas: "canvas canvas canvas";
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+}
+
+.main-canvas {
+  grid-area: canvas;
+}
